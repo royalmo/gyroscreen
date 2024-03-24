@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|114132000|90020000|d4a38f47-cea9-4070-bd30-586471772d40|150d3d3a-bead-4c87-aaf9-305bf3780ced",
+        "clearance|114132000|90020000|d4a38f47-cea9-4070-bd30-586471772d40|68568818-cbea-4548-99a4-e9e6556c42c5",
+        "hole_clearance|112892000|84220000|343054f5-707e-4a66-8d54-da5d5c10b3d8|3ed4c3cb-bb21-4ada-9dfa-fe7c602dc118",
+        "hole_clearance|112892000|84220000|343054f5-707e-4a66-8d54-da5d5c10b3d8|4a5c1149-5d1d-43be-a927-3ce31783dfcf",
+        "hole_clearance|112892000|84420000|343054f5-707e-4a66-8d54-da5d5c10b3d8|6053b772-f6d5-4c64-97fd-453b25bb94e9",
+        "hole_clearance|112892000|84420000|343054f5-707e-4a66-8d54-da5d5c10b3d8|cd02baf3-0dfe-4ddd-8c80-db129e71433d",
+        "hole_clearance|112892000|89820000|c9d83349-ff90-44d9-82a8-aa506ee9745f|a6a52e31-11d6-41ea-b4ad-a6312cf40be3",
+        "hole_clearance|112892000|89820000|c9d83349-ff90-44d9-82a8-aa506ee9745f|d3b7b460-2f12-4ae2-a791-9c021fa06764",
+        "hole_clearance|112892000|90020000|c9d83349-ff90-44d9-82a8-aa506ee9745f|150d3d3a-bead-4c87-aaf9-305bf3780ced",
+        "hole_clearance|112892000|90020000|c9d83349-ff90-44d9-82a8-aa506ee9745f|68568818-cbea-4548-99a4-e9e6556c42c5",
+        "lib_footprint_issues|118363377|88396090|39a77c68-5e85-41c2-ab66-7955937bd2dd|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|128520804|88645792|2ac88844-ab22-488b-bdfc-bbb23f40d051|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|106934000|82540000|4f877c17-8003-43e6-8c13-4534f3aa9bcd|60cdafcb-4378-4cf7-8223-c11719424f39",
+        "silk_edge_clearance|106934000|91700000|4f877c17-8003-43e6-8c13-4534f3aa9bcd|ae4e76f0-1904-4644-810c-23b02a88d379",
+        "text_height|130302000|93980000|9f472f2b-cd97-45aa-adae-08b6f12b3c1c|00000000-0000-0000-0000-000000000000",
+        "text_height|130302000|94996000|e9d9ce99-05ff-4216-9b97-e9ceea0bf78b|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -502,7 +519,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "out/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
